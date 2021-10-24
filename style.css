@@ -1,0 +1,49 @@
+.main-div{
+
+}
+.header{
+    border: 1px solid black;
+    height: 50px;
+    width: 1340px;
+}
+.main{
+    /* border: 1px solid black; */
+    height: 580px;
+    width: 1340px;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: row
+}
+.left-bar{
+    border: 1px solid black;
+    height: 570px;
+    width: 375px; ;
+    margin: 5px 0px 0px 5px;
+    
+}
+.center{
+    border: 1px solid black;
+    height: 570px;
+    width:600px ;
+    margin: 5px 5px 0px 5px;
+}
+.right-bar{
+    border: 1px solid black;
+    height: 570px;
+    width: 355px;
+    margin: 5px 5px 0px 0px;
+
+}
+#input{
+    margin: 5px 0px 0px 15px ;
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 15px;
+}
+
+#input :focus{
+    border: none;
+}
